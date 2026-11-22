@@ -2,49 +2,57 @@ export const SAMPLE_ARTICLES = [
   {
     id: "real-1",
     type: "real",
-    category: "Diplomacy & International",
-    title: "UN Climate Summit Concludes With Historic Clean Energy Transition Agreement",
-    text: "Delegates from nearly 200 nations reached a landmark consensus at the annual United Nations climate negotiations early this morning. The final declaration calls on global economies to transition away from fossil fuels in energy systems, in a just and equitable manner, to accelerate action in this critical decade. Representatives agreed to triple global renewable energy capacity by 2030 and establish a dedicated multilateral loss and damage fund.",
-    snippet: "Delegates from nearly 200 nations reached a landmark consensus at the annual United Nations climate negotiations..."
+    category: "Congress & Policy (Full Article)",
+    title: "White House, Congress Prepare For Talks On Spending and Immigration",
+    text: "White House, Congress prepare for talks on spending, immigration. The White House said on Friday it was set to kick off talks next week with Republican and Democratic congressional leaders on immigration policy, government spending and other issues that need to be wrapped up early in the new year. Aides confirmed the negotiations will begin on Wednesday.",
+    snippet: "White House, Congress prepare for talks on spending, immigration. The White House said on Friday..."
   },
   {
     id: "real-2",
     type: "real",
-    category: "Science & Technology",
-    title: "James Webb Telescope Discovers Atmospheric Water Vapor on Distant Exoplanet",
-    text: "Astronomers using NASA's James Webb Space Telescope have detected clear chemical signatures of water vapor and sulfur dioxide in the atmosphere of an exoplanet orbiting a solar-type star approximately 700 light-years from Earth. The spectrographic observation provides the most detailed molecular profile of an extrasolar planetary atmosphere to date, according to researchers published in the journal Nature.",
-    snippet: "Astronomers using NASA's James Webb Space Telescope have detected clear chemical signatures of water vapor..."
+    category: "Economy & Legislation (Full Article)",
+    title: "Trump Signs Major Tax and Government Spending Bills Into Law",
+    text: "Trump signs tax, government spending bills into law. U.S. President Donald Trump signed Republicans massive $1.5 trillion tax overhaul into law on Friday, cementing the biggest legislative victory of his first year in office, and also approved a short-term spending bill that averts a possible government shutdown, officials said.",
+    snippet: "Trump signs tax, government spending bills into law. U.S. President Donald Trump signed Republicans..."
+  },
+  {
+    id: "headline-real-1",
+    type: "real",
+    category: "Short Headline",
+    title: "White House, Congress prepare for talks on spending and immigration, aides said",
+    text: "White House, Congress prepare for talks on spending and immigration, aides said",
+    snippet: "White House, Congress prepare for talks on spending and immigration, aides said"
+  },
+  {
+    id: "headline-real-2",
+    type: "real",
+    category: "Short Headline",
+    title: "Federal Reserve holds benchmark interest rate steady on Wednesday, chair said",
+    text: "Federal Reserve holds benchmark interest rate steady on Wednesday, chair said",
+    snippet: "Federal Reserve holds benchmark interest rate steady on Wednesday, chair said"
   },
   {
     id: "fake-1",
     type: "fake",
     category: "Conspiracy & Fabricated",
-    title: "BOMBSHELL: Secret Underwater Substation Found Controlling Global Weather Patterns",
-    text: "Shocking whistleblower leaked documents reveal that shadowy global elites have constructed massive electromagnetic generators deep in the Atlantic ocean. Sources claim these covert installations are directly responsible for causing sudden hurricanes, unseasonal blizzards, and earthquakes across targeted nations to enforce global compliance. Mainstream media refuses to broadcast this undeniable truth!",
-    snippet: "Shocking whistleblower leaked documents reveal that shadowy global elites have constructed massive electromagnetic generators..."
+    title: "Secret Underwater Substation Found Controlling Global Weather Patterns",
+    text: "Secret underwater base discovered controlling global weather patterns with massive electromagnetic frequency towers, whistleblowers report. Shadow elites are using secret covert installations to manipulate storms and earthquakes across targeted nations.",
+    snippet: "Secret underwater base discovered controlling global weather patterns with massive electromagnetic frequency..."
   },
   {
-    id: "fake-2",
-    type: "fake",
-    category: "Sensationalist Politics",
-    title: "BREAKING: Government Officials Caught In Massive Midnight Gold Heist At Federal Reserve",
-    text: "Insiders report that high-ranking treasury bureaucrats were caught on security cameras loading hundreds of bullion bars into unmarked transport vehicles under cover of night. An anonymous military general has declared emergency jurisdiction as authorities scramble to cover up the missing national reserves before the stock market opens tomorrow morning.",
-    snippet: "Insiders report that high-ranking treasury bureaucrats were caught on security cameras loading hundreds of bullion bars..."
-  },
-  {
-    id: "headline-real",
-    type: "real",
-    category: "Short Headline",
-    title: "Federal Reserve Holds Benchmark Interest Rate Steady Amid Moderate Economic Growth",
-    text: "Federal Reserve Holds Benchmark Interest Rate Steady Amid Moderate Economic Growth",
-    snippet: "Federal Reserve Holds Benchmark Interest Rate Steady Amid Moderate Economic Growth"
-  },
-  {
-    id: "headline-fake",
+    id: "headline-fake-1",
     type: "fake",
     category: "Short Headline",
-    title: "SHOCKING PROOF: Drinking Miracle Lemon Salt Cures All Known Viral Diseases Overnight!",
-    text: "SHOCKING PROOF: Drinking Miracle Lemon Salt Cures All Known Viral Diseases Overnight!",
-    snippet: "SHOCKING PROOF: Drinking Miracle Lemon Salt Cures All Known..."
+    title: "BREAKING: Shocking whistleblower exposes massive election fraud conspiracy",
+    text: "BREAKING: Shocking whistleblower exposes massive election fraud conspiracy",
+    snippet: "BREAKING: Shocking whistleblower exposes massive election fraud conspiracy"
+  },
+  {
+    id: "headline-fake-2",
+    type: "fake",
+    category: "Short Headline",
+    title: "SHOCKING PROOF: Miracle lemon salt cures all known viral diseases overnight via secret formula",
+    text: "SHOCKING PROOF: Miracle lemon salt cures all known viral diseases overnight via secret formula",
+    snippet: "SHOCKING PROOF: Miracle lemon salt cures all known viral diseases overnight..."
   }
 ];
