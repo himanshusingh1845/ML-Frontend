@@ -1,0 +1,45 @@
+{
+  "dataset": {
+    "name": "ISOT Fake News Dataset",
+    "fake_count": 23481,
+    "true_count": 21417,
+    "total_raw": 44898,
+    "total_cleaned": 44689,
+    "train_samples": 35751,
+    "test_samples": 8938,
+    "test_split_ratio": 0.2,
+    "random_state": 42
+  },
+  "vectorizer": {
+    "type": "TfidfVectorizer",
+    "max_features": 5000,
+    "ngram_range": [
+      1,
+      2
+    ]
+  },
+  "models": {
+    "naive_bayes": {
+      "name": "Multinomial Naive Bayes",
+      "accuracy": 0.9501,
+      "precision": 0.9537,
+      "recall": 0.9512,
+      "f1_score": 0.9525,
+      "accuracy_percent": 95.01,
+      "precision_percent": 95.37,
+      "recall_percent": 95.12,
+      "f1_percent": 95.25
+    },
+    "logistic_regression": {
+      "name": "Logistic Regression",
+      "accuracy": 0.9907,
+      "precision": 0.9932,
+      "recall": 0.9891,
+      "f1_score": 0.9911,
+      "accuracy_percent": 99.07,
+      "precision_percent": 99.32,
+      "recall_percent": 98.91,
+      "f1_percent": 99.11
+    }
+  }
+}
