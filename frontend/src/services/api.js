@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || '';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://ml-frontend-vls3.onrender.com';
 
 /**
  * Perform single-model fake news prediction.
